@@ -11,4 +11,4 @@ Use the Abstract Factory pattern when:
 * a family of related product objects is designed to be used together, and you need to enforce this constraint.
 * you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations.
 
-An example of the factory method can be foun in the (here)[https://github.com/sagarc03/designPattern/tree/master/AbstractFactroyExample]
+An example of the factory method can be foun in the [here](./AbstractFactroyExample)

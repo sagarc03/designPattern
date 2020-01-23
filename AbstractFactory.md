@@ -11,4 +11,17 @@ Use the Abstract Factory pattern when:
 * a family of related product objects is designed to be used together, and you need to enforce this constraint.
 * you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations.
 
-An example of the factory method can be foun in the [here](./AbstractFactroyExample)
+Structure Participants:
+
+* AbstractFactory – declares an interface for operations that create abstract product objects.
+* ConcreteFactory – implements the operations to create concrete product objects.
+* AbstractProduct – declares an interface for a type of product object.
+* ConcreteProduct – defines a product object to be created by the corresponding concrete factory. implements the AbstractProduct interface.
+* Client – uses only interfaces declared by AbstractFactory and AbstractProduct classes.
+
+An example of the factory method can be found in the [here](./AbstractFactroyExample)
+
+
+Case Studies:
+
+Coming Soon
